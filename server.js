@@ -12,7 +12,7 @@ const db = mongoose.connection;
 //Port
 //___________________
 // Allow use of Heroku's port or your own local port, depending on the environment
-const PORT = process.env.PORT || 3003;
+const PORT = process.env.PORT || 3001;
 
 //___________________
 //Database
@@ -47,11 +47,14 @@ app.use(express.json());// returns middleware that only parses JSON - may or may
 //use method override
 app.use(methodOverride('_method'));// allow POST, PUT and DELETE from a form
 
+const thingsController = require('./controllers/things.js');
+app.use('/things', thingsController);
+
 
 //___________________
 // Routes
 //___________________
-//localhost:3000
+//localhost:3001
 app.get('/' , (req, res) => {
   res.send('Hello World!');
 });
@@ -59,4 +62,4 @@ app.get('/' , (req, res) => {
 //___________________
 //Listener
 //___________________
-app.listen(PORT, () => console.log( 'Listening on port:', PORT));
+app.listen(3001, () => console.log( 'Listening on port:', PORT));

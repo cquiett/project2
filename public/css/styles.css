@@ -1,0 +1,36 @@
+/* GENERAL */
+body {
+  background-color: mediumseagreen;
+
+}
+
+/* .sidebar {
+  width: 50%;
+  background: url('/public/images/flowerforheader.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px 0 0 10px;
+} */
+
+h1 {
+  font-family: 'Courgette', cursive;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Caveat', cursive;
+  margin-left: 100%;
+}
+/* .container {
+
+} */
+
+
+
+/* a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; */

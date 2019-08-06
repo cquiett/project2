@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <!-- ============ HEAD ============ -->
+  <% include ./partials/head.ejs %>
+    <body>
+        <h1>New Things Page</h1>
+        <form action="/things" method="POST">
+          Name: <input type="text" name="name" value="" /><br/>
+          Description: <input type="text" name="description" value="" /><br/>
+          Img: <input type="text" name="img" value="
+          " /><br/>
+          WebLink: <input type="url" name="webLink" value="" /><br/>
+          <input type="submit" value="Create New Things" />
+        </form>
+    </body>
+</html>

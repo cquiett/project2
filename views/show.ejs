@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <!-- ============ HEAD ============ -->
+  <% include ./partials/head.ejs %>
+  <body>
+    <main class="show-main">
+        <h2>My Favorite Things Shop Page</h2>
+        <h1><%=things.name %></h1>
+        <img
+          src="<%= things.img %>" alt="things image" width="100" heigth="100 border="0> <br></br>
+
+        <p><%= things.description %></p>
+        <nav>
+          <a href="<%=things.webLink%>" alt="Web Link">WebLink </a>
+        </nav>
+    </main>
+    <nav>
+      <a href="/things" class="back-btn">Back to My Favorite Things Index Page</a>
+    </nav>
+      </body>
+</html>

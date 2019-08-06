@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <!-- ============ HEAD ============ -->
+  <% include ./partials/head.ejs %>
+  <body>
+    <!-- sidebar -->
+      <div class="sidebar"></div>
+    <h1>My Favorite Things</h1>
+    <h3>Edit: <%=things.name%></h3>
+    <form  action="/thingss/<%=things.id%>?_method=PUT" method="POST">
+      Name: <input type="text" name="name" value="" /><br/>
+      Description: <input type="text" name="description" value="" /><br/>
+      Image: <input type="text" name="img" value="" /><br/>
+      WebLink: <input type="url" name="webLink" value="" /><br/>
+      <input type="submit" value="Submit Changes" />
+    </form>
+  </body>
+</html>
