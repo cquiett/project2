@@ -3,19 +3,20 @@
   <!-- ============ HEAD ============ -->
   <% include ./partials/head.ejs %>
   <body>
-    <main class="show-main">
-        <h2>My Favorite Things Shop Page</h2>
+    <div class="show-main">
+        <h3>My Favorite Things Show Page</h3>
+    </div>
         <h1><%=things.name %></h1>
-        <img
-          src="<%= things.img %>" alt="things image" width="100" heigth="100 border="0> <br></br>
-
+        <img class="show-image"
+          src="<%= things.img %>" alt="things image" width="200" heigth="200 border="0> <br></br>
+        <h5>Description:</h5>
         <p><%= things.description %></p>
-        <nav>
-          <a href="<%=things.webLink%>" alt="Web Link">WebLink </a>
+        <nav class="shop">
+          Shop for <%=things.name %> products here: <a href="<%=things.webLink%>" alt="Web Link">Click Me! </a>
         </nav>
-    </main>
-    <nav>
-      <a href="/things" class="back-btn">Back to My Favorite Things Index Page</a>
-    </nav>
+
+        <nav class="back">
+          <a href="/things" class="back-btn">Back to My Favorite Things Index Page</a>
+        </nav>
       </body>
 </html>

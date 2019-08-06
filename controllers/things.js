@@ -78,7 +78,7 @@ router.get('/new', (req, res) => {
 //Create POST
 router.post('/', (req, res) => {
     Things.create(req.body, (error, createdThings) => {
-      console.log(error);
+      // console.log(error);
         res.redirect('/things')
     });
 });

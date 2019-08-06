@@ -16,17 +16,64 @@ h1 {
   font-family: 'Courgette', cursive;
   text-align: center;
   color: purple;
+  text-shadow: 2px 1px indianred;
 }
 
 h3 {
-  font-family: 'Caveat', cursive;
+  font-family: 'Cantarell';
   margin-left: 20%;
+}
+
+a {
+  color: purple;
 }
 
 form {
   margin-left: 20%;
+  font-family: 'Caveat', 'Arial';
 }
 
+/*Index */
+.index-image {
+display: flex;
+/* flex-direction: row; */
+flex-wrap: wrap;
+}
+
+/* Show*/
+.show-main, h3 {
+  margin-left: 15%;
+  font-family: 'Cantarell', cursive;
+  color: darkslategray;
+  text-shadow: 2px 1px silver;
+}
+
+.show-image {
+  margin-left: 40%;
+}
+
+h5 {
+  margin-left: 20%;
+  font-family: 'Cantarell', cursive;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: purple;
+}
+
+p, .shop {
+  margin-left: 20%;
+  margin-right: 20%;
+  color: purple;
+  font-family: 'Cantarell', serif;
+  font-style: italic;
+}
+
+.back {
+  color: purple;
+  padding-top: 30px;
+  margin-left: 40%;
+
+}
 
 /* a:link, a:visited {
   background-color: #f44336;
