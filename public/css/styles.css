@@ -15,16 +15,17 @@ body {
 h1 {
   font-family: 'Courgette', cursive;
   text-align: center;
+  color: purple;
 }
 
 h3 {
   font-family: 'Caveat', cursive;
-  margin-left: 100%;
+  margin-left: 20%;
 }
-/* .container {
 
-} */
-
+form {
+  margin-left: 20%;
+}
 
 
 /* a:link, a:visited {
