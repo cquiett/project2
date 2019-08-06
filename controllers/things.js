@@ -57,6 +57,7 @@ router.delete('/:id', (req, res)=>{
 //Edit
 router.get('/:id/edit', (req, res) => {
     Things.findById(req.params.id, (error, foundThings) => {
+      // console.log(error);
       res.render('edit.ejs', {things: foundThings});
     })
 

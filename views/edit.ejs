@@ -7,12 +7,15 @@
       <div class="sidebar"></div>
     <h1>My Favorite Things</h1>
     <h3>Edit: <%=things.name%></h3>
-    <form  action="/thingss/<%=things.id%>?_method=PUT" method="POST">
-      Name: <input type="text" name="name" value="" /><br/>
-      Description: <input type="text" name="description" value="" /><br/>
-      Image: <input type="text" name="img" value="" /><br/>
-      WebLink: <input type="url" name="webLink" value="" /><br/>
+    <form  action="/things/<%=things.id%>?_method=PUT" method="POST">
+      Name: <input type="text" name="name" value="<%=things.name%>" /><br/>
+      Description: <input type="text" name="description" value="<%=things.description%>" /><br/>
+      Image: <input type="text" name="img" value="<%=things.img%>" /><br/>
+      WebLink: <input type="url" name="webLink" value="<%=things.webLink%>" /><br/>
       <input type="submit" value="Submit Changes" />
     </form>
+    <nav class="back">
+      <a href="/things" class="back-btn">Back to My Favorite Things Index Page</a>
+    </nav>
   </body>
 </html>

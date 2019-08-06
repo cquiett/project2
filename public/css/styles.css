@@ -36,9 +36,15 @@ form {
 /*Index */
 .name {
 display: inline-block;
-padding: 50px;
+padding: 60px
 /* flex-direction: row; */
 /* flex-wrap: wrap; */
+}
+
+.create {
+  color: purple;
+  /* padding-top: 30px; */
+  margin-left: 40%;
 }
 
 /* Show*/
@@ -73,7 +79,6 @@ p, .shop {
   color: purple;
   padding-top: 30px;
   margin-left: 40%;
-
 }
 
 /* a:link, a:visited {
