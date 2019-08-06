@@ -12,7 +12,7 @@ const db = mongoose.connection;
 //Port
 //___________________
 // Allow use of Heroku's port or your own local port, depending on the environment
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 //___________________
 //Database
@@ -62,4 +62,4 @@ app.get('/' , (req, res) => {
 //___________________
 //Listener
 //___________________
-app.listen(3000, () => console.log( 'Listening on port:', PORT));
+app.listen(PORT, () => console.log( 'Listening on port:', PORT));
