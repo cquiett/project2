@@ -28,12 +28,19 @@ a {
   color: purple;
 }
 
+
+
 form {
   margin-left: 20%;
   font-family: 'Caveat', 'Arial';
 }
 
 /*Index */
+.index {
+  font-family: 'Cantarell', cursive;
+  font-size: 20px;
+  }
+  
 .name {
 display: inline-block;
 padding: 60px

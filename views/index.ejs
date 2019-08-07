@@ -6,9 +6,9 @@
     <div class="container">
           <% for (let i=0; i < things.length; i++) {%>
         <div class="name">
-          <a href="/things/<%=things[i].id%>">
-            <img src="<%= things[i].img %>" alt="things image" width="200" height="200" border="0"><br>
+          <a class="index" href="/things/<%=things[i].id%>">
             <%=things[i].name %><br>
+            <img src="<%= things[i].img %>" alt="things image" width="200" height="200" border="0"><br>
           </a>
           <a href="/things/<%=things[i].id;%>/edit">EDIT</a>
             <form action="/things/<%=things[i].id%>?_method=DELETE" method="POST">
