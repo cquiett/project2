@@ -1,6 +1,6 @@
 /* GENERAL */
 body {
-  background-color: mediumseagreen;
+  background-color: antiquewhite;
 
 }
 
@@ -10,10 +10,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px 0 0 10px;
-} */
+} mediumseagreen*/
 
-h1 {
-  font-family: 'Courgette', cursive;
+h1, h2 {
+  font-family: 'Courgette', serif;
+  font-style: italic;
   text-align: center;
   color: purple;
   text-shadow: 2px 1px indianred;
@@ -40,7 +41,7 @@ form {
   font-family: 'Cantarell', cursive;
   font-size: 20px;
   }
-  
+
 .name {
 display: inline-block;
 padding: 60px
@@ -87,6 +88,49 @@ p, .shop {
   padding-top: 30px;
   margin-left: 40%;
 }
+
+/* app/index.ejs */
+.app_index {
+  /* margin-top: 5%; */
+  background-image: url("../images/flowerforheader.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: opacity: 0.3;
+  filter: alpha(opacity=30); */
+}
+
+/* .about {
+  margin-left: 10%;
+  margin-top: 10%;
+  font-family: 'Cantarell', serif;
+  font-size: 25px;
+  font-style: italic;
+  text-shadow: 1px 1px indianred;
+  text-decoration: underline;
+} */
+
+.btn  {
+  margin-top: 5%;
+  margin-left: 5%;
+  border-radius: 50%;
+  background-color: mediumseagreen;
+  font-size: 20px;
+  font-family: 'Cantarell';
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* .btn2  {
+  margin-top: 5%;
+  margin-left: 43%;
+  border-radius: 50%;
+  background-color: mediumseagreen;
+  font-size: 20px;
+  font-family: 'Cantarell';
+  font-style: italic;
+  text-decoration: underline;
+
+} */
 
 /* a:link, a:visited {
   background-color: #f44336;

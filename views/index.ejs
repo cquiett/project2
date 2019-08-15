@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <% include ./partials/head.ejs %>
   <body>
+    <a class="waves-effect waves-light btn" href="/sessions/new">Log In</a>
     <h1>My Favorite Things</h1><br></br>
     <div class="container">
           <% for (let i=0; i < things.length; i++) {%>
@@ -20,6 +21,5 @@
         <nav class="create">
             <a href="/things/new">Create a New Things</a>
         </nav>
-
-  </body>
+          </body>
 </html>
